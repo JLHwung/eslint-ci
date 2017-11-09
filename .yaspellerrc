@@ -1,0 +1,22 @@
+{
+  "lang": "en",
+  "dictionary": [
+    "CI",
+    "ci",
+    "eslint",
+    "npm",
+    "yaspeller"
+  ],
+  "excludeFiles": [
+    ".git",
+    "lib",
+    "node_modules",
+    "CHANGELOG.md"
+  ],
+  "fileExtensions": [
+    ".md"
+  ],
+  "ignoreText": [
+    "\\([a-f0-9]+\\)"
+  ]
+}

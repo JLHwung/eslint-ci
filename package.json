@@ -1,0 +1,33 @@
+{
+  "bin": "bin.js",
+  "name": "eslint-ci",
+  "version": "0.1.0",
+  "description": "Fast eslint for CI",
+  "repository": "https://github.com/JLHwung/eslint-ci.git",
+  "author": "Huáng Jùnliàng <i@jhuang.me>",
+  "license": "MIT",
+  "scripts": {
+    "precommit": "lint-staged",
+    "lint": "./bin.js *.js",
+    "spellcheck": "yaspeller-ci README.md",
+    "test": "npm run lint && npm run spellcheck"
+  },
+  "lint-staged": {
+    "*.{js,json}": ["prettier --write", "git add"],
+    "README.md": ["yaspeller-ci"]
+  },
+  "dependencies": {
+    "ci-job-number": "^0.3.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=1"
+  },
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "eslint-config-prettier": "^2.7.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.3.0",
+    "prettier": "^1.8.1",
+    "yaspeller-ci": "^0.7.0"
+  }
+}

@@ -1,0 +1,21 @@
+language: node_js
+
+cache: yarn
+matrix:
+  fast_finish: true
+  include:
+  - node_js: 4
+    env: ESLINT_VERSION=4
+  - node_js: 4
+    env: ESLINT_VERSION=3
+  - node_js: 4
+    env: ESLINT_VERSION=2
+  - node_js: 4
+    env: ESLINT_VERSION=1
+
+before_install: yarn global add greenkeeper-lockfile@1
+before_script:
+- greenkeeper-lockfile-update
+- npm install eslint@ESLINT_VERSION
+
+after_script: greenkeeper-lockfile-upload
