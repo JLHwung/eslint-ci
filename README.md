@@ -1,4 +1,6 @@
 # eslint-ci
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/JLHwung/eslint-ci.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/JLHwung/eslint-ci.svg?branch=master)](https://travis-ci.org/JLHwung/eslint-ci)
 
 Fast eslint for CI, inspired from [yaspeller-ci](https://github.com/ai/yaspeller-ci).
