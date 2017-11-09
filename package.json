@@ -10,7 +10,8 @@
     "precommit": "lint-staged",
     "lint": "./bin.js *.js",
     "spellcheck": "yaspeller-ci README.md",
-    "test": "npm run lint && npm run spellcheck"
+    "test": "npm run lint && npm run spellcheck",
+    "test:integration": "./bin.js --config test/.eslintrc ./test/fixture.js"
   },
   "lint-staged": {
     "*.{js,json}": ["prettier --write", "git add"],

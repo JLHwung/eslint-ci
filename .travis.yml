@@ -16,6 +16,11 @@ matrix:
 before_install: yarn global add greenkeeper-lockfile@1
 before_script:
 - greenkeeper-lockfile-update
+
+script:
+- npm test
+- npm uninstall eslint-config-prettier
 - npm install eslint@$ESLINT_VERSION
+- npm run test:integration
 
 after_script: greenkeeper-lockfile-upload
