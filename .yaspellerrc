@@ -3,6 +3,7 @@
   "dictionary": [
     "CI",
     "ci",
+    "ESLint",
     "eslint",
     "npm",
     "yaspeller"

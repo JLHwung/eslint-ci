@@ -2,7 +2,7 @@
   "bin": "bin.js",
   "name": "eslint-ci",
   "version": "0.1.0",
-  "description": "Fast eslint for CI",
+  "description": "Fast ESLint for CI",
   "repository": "https://github.com/JLHwung/eslint-ci.git",
   "author": "Huáng Jùnliàng <i@jhuang.me>",
   "license": "MIT",
