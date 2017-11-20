@@ -5,7 +5,7 @@
 
 Fast ESLint for CI, inspired from [yaspeller-ci](https://github.com/ai/yaspeller-ci).
 
-It is a simple wrap for [ESLint](https://github.com/eslint/eslint) and works well with eslint ESLint 1.x to the latest version. It runs lint check only in first CI job so that we can speed up build time and reduce unnecessary computation burden for CI service.
+It is a simple wrap for [ESLint](https://github.com/eslint/eslint) and works well with ESLint from 1.x to the latest version. It runs lint check only in first CI job so that we can speed up build time and reduce unnecessary computation burden for CI service.
 
 ## Usage
 Install `eslint-ci`
