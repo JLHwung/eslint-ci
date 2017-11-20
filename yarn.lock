@@ -1678,7 +1678,7 @@ yargs@^10.0.3:
     y18n "^3.2.1"
     yargs-parser "^8.0.0"
 
-yaspeller-ci@1.0.0:
+yaspeller-ci@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/yaspeller-ci/-/yaspeller-ci-1.0.0.tgz#f335f5bdf5b587bb54621d15a1456aebf1c4ba24"
   dependencies:
