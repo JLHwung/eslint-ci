@@ -28,7 +28,7 @@
     "eslint-config-prettier": "^2.7.0",
     "husky": "^0.14.3",
     "lint-staged": "^6.0.0",
-    "prettier": "^1.8.1",
+    "prettier": "^1.15.2",
     "yaspeller-ci": "^1.0.0"
   }
 }
