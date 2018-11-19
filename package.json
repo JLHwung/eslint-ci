@@ -18,6 +18,9 @@
   "peerDependencies": {
     "eslint": ">=1"
   },
+  "files": [
+    "bin.js"
+  ],
   "devDependencies": {
     "eslint": "^4.10.0",
     "eslint-config-prettier": "^3.0.0",
