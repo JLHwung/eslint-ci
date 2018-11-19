@@ -7,15 +7,10 @@
   "author": "Huáng Jùnliàng <i@jhuang.me>",
   "license": "MIT",
   "scripts": {
-    "precommit": "lint-staged",
     "lint": "./bin.js *.js",
     "spellcheck": "yaspeller-ci README.md",
     "test": "npm run lint && npm run spellcheck",
     "test:integration": "./bin.js --config test/.eslintrc ./test/fixture.js"
-  },
-  "lint-staged": {
-    "*.{js,json}": ["prettier --write", "git add"],
-    "README.md": ["yaspeller-ci"]
   },
   "dependencies": {
     "ci-job-number": "^0.3.0"
@@ -26,8 +21,8 @@
   "devDependencies": {
     "eslint": "^4.10.0",
     "eslint-config-prettier": "^3.0.0",
-    "husky": "^0.14.3",
-    "lint-staged": "^6.0.0",
+    "husky": "^1.0.0",
+    "lint-staged": "^8.0.5",
     "prettier": "^1.8.1",
     "yaspeller-ci": "^1.0.0"
   }
