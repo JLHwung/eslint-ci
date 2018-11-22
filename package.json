@@ -13,7 +13,7 @@
     "test:integration": "./bin.js --config test/.eslintrc ./test/fixture.js"
   },
   "dependencies": {
-    "ci-job-number": "^0.3.0"
+    "ci-job-number": "0.3.0"
   },
   "peerDependencies": {
     "eslint": ">=1"
@@ -22,11 +22,11 @@
     "bin.js"
   ],
   "devDependencies": {
-    "eslint": "^4.10.0",
-    "eslint-config-prettier": "^3.0.0",
-    "husky": "^1.0.0",
-    "lint-staged": "^8.0.5",
-    "prettier": "^1.8.1",
-    "yaspeller-ci": "^1.0.0"
+    "eslint": "4.19.1",
+    "eslint-config-prettier": "3.0.0",
+    "husky": "1.1.4",
+    "lint-staged": "8.0.5",
+    "prettier": "1.15.2",
+    "yaspeller-ci": "1.0.0"
   }
 }
