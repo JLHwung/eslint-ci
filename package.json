@@ -24,7 +24,7 @@
   "devDependencies": {
     "eslint": "6.8.0",
     "eslint-config-prettier": "6.9.0",
-    "husky": "4.0.3",
+    "husky": "4.0.4",
     "lint-staged": "9.5.0",
     "prettier": "1.19.1",
     "yaspeller-ci": "1.0.1"
