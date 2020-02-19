@@ -27,6 +27,6 @@
     "husky": "4.2.3",
     "lint-staged": "10.0.7",
     "prettier": "1.19.1",
-    "yaspeller-ci": "1.0.1"
+    "yaspeller-ci": "1.0.2"
   }
 }
