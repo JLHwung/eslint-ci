@@ -13,7 +13,7 @@
     "test:integration": "./bin.js --config test/.eslintrc ./test/fixture.js"
   },
   "dependencies": {
-    "ci-job-number": "1.2.1"
+    "ci-job-number": "1.2.2"
   },
   "peerDependencies": {
     "eslint": ">=1"
